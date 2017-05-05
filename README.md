@@ -1,6 +1,6 @@
 # awesome-android-performance
  This is a  list of awesome Android tutorials, videos and tools for performance optimization
-
+ 
 ---
 ## View
 #### Google Official Videos
@@ -14,7 +14,6 @@
 ## WebView
 + [Why Use Crosswalk?](https://software.intel.com/en-us/xdk/docs/why-use-crosswalk-for-android-builds) - use crosswalk for better performance, especiallly for android version below4.4
 + [Enhance webView performance](http://stackoverflow.com/questions/3652583/enhance-webview-performance-should-be-the-same-performance-as-native-web-browse) - disable the WebView cache to make WebView much faster.
-
 #### Tools
 + [crosswalk-cordova-android](https://github.com/crosswalk-project/crosswalk-cordova-android) — An app runtime based on Chromium/Blink.
 
@@ -39,7 +38,6 @@
 + [Android: bitmaps, textures and pre-multiplied pixels](https://plus.google.com/+ChetHaase/posts/ef6Deey6xKA)
 + [Testing Display Performance](https://developer.android.com/preview/testing/performance.html)
 
-
 ## Memory
 #### Google official videos
 + [Memory Performance 101](https://www.youtube.com/watch?v=OrLEoIsMIAc&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&index=59)
@@ -51,7 +49,7 @@
 + [Avoiding Allocations in onDraw](https://www.youtube.com/watch?v=HAK5acHQ53E&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&index=37)
 + [Android内存优化之OOM](http://hukai.me/android-performance-oom/)
 
-#### others
+#### Others
 + [Investigating Your RAM Usage](http://developer.android.com/intl/zh-cn/tools/debugging/debugging-memory.html)
 + [The truth about Preventative Optimizations](https://medium.com/google-developers/the-truth-about-preventative-optimizations-ccebadfd3eb5) - You  can find some useful things from the links.
 + [A small leak will sink a great ship](https://corner.squareup.com/2015/08/a-small-leak.html)
@@ -71,26 +69,25 @@
 ## Concurrency
 + [The Zen of IntentService. (Android Performance Patterns Season 5 ep7)](https://www.youtube.com/watch?v=9FweabuBi1U&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&index=70) - Talked about IntentServices, AsyncTasks, HandlerThread in the background thread.
 
-
 ## Battery
 + [Optimizing Battery Life](https://developer.android.com/training/monitoring-device-state/index.html) - Android's official tutorial for Battery Optimization
 
 ## Others
 + [SMP Primer for Android](http://developer.android.com/intl/zh-cn/training/articles/smp.html)
 + [JNI](http://developer.android.com/intl/zh-cn/training/articles/perf-jni.html)
-### Network
-###### Google Official
-+ [Optimizing Network Request Frequencies (Android Performance Patterns Season 4 ep2)
+
+## Network
+#### Google Official
+ + [Optimizing Network Request Frequencies (Android Performance Patterns Season 4 ep2)
 Android Developers](https://www.youtube.com/watch?v=nDHeuEM30ks&list=PLOU2XLYxmsIKEOXh5TwZEv89aofHzNCiu&index=2) - push instead pull data, sync policies and so on.
-+ [Serialization performance (Android Performance Patterns Season 4 ep14)](https://www.youtube.com/watch?v=IwxIIUypnTE&index=14&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&linkId=20302393) - use Protobuffers and FlatBuffer to improve seiralization performance
-+ [Effective Network Batching (Android Performance Patterns Season 3 ep10)](https://www.youtube.com/watch?v=Ecz5WDZoJok&index=27&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
-###### Others
+ + [Serialization performance (Android Performance Patterns Season 4 ep14)](https://www.youtube.com/watch?v=IwxIIUypnTE&index=14&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&linkId=20302393) - use Protobuffers and FlatBuffer to improve seiralization performance
+ + [Effective Network Batching (Android Performance Patterns Season 3 ep10)](https://www.youtube.com/watch?v=Ecz5WDZoJok&index=27&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
+#### Others
 + [Better Compression = Faster Networking - Colt McAnlis' talk from SF Android](https://newcircle.com/s/post/1754/2015/08/20/colt-mcanlis-better-compression-faster-networking)
 + [Improving UX through performance](https://raw.githubusercontent.com/Juude/awesome-android-performance/master/docs/improving_ux_through_performance.pdf) - using okhttp, Fresco,or ToFu to improve network performance
-### Network Profiling Tools
+#### Network Profiling Tools
 + [ARO](https://developer.att.com/application-resource-optimizer/get-aro/download) - Use this free diagnostic tool to improve your app's battery life, data usage, and responsiveness
 + [Network Monitor in Android Studio](http://developer.android.com/intl/zh-cn/tools/help/am-network.html)
-
 
 # Article Videos Tools and others that cover multiple topics
 ## Performance Test 
@@ -104,7 +101,7 @@ Android Developers](https://www.youtube.com/watch?v=nDHeuEM30ks&list=PLOU2XLYxms
 + [Performance Tips](http://hsc.com/Blog/Best-Practices-For-Memory-Optimization-on-Android-1) - Android's Official Perf tips
 + [Facebook Engineering blogs tagged android](https://code.facebook.com/posts/android/) - Including many articles on performance
 
-# Tools
+## Tools
 + [Developing for Android IXTools](https://medium.com/google-developers/developing-for-android-ix-tools-375134af1098)
 + [Performance Profiling Tools](https://developer.android.com/tools/performance/index.html) - Performance Tools
 + [StrictMode](http://developer.android.com/intl/zh-cn/reference/android/os/StrictMode.html) - Debug Util Class for  etection for Storage, Memory and others.
@@ -124,4 +121,4 @@ Android Developers](https://www.youtube.com/watch?v=nDHeuEM30ks&list=PLOU2XLYxms
 + [Colt McAnlis](https://twitter.com/duhroach) - Instructor of the Video at Udacity and Youtube
 + [Chet Haase](https://twitter.com/chethaase) - Author of the [Developing for Android](https://medium.com/google-developers/developing-for-android-introduction-5345b451567c) series
 + [Romain Guy](https://twitter.com/romainguy) - former developer of android ui framework team
-+ [胡凯](https://hukai.me) - 翻译了包括Google官方视频的许多andorid性能优化的资料
++ [胡凯](hukai.me) - 翻译了包括Google官方视频的许多andorid性能优化的资料
