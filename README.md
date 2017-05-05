@@ -89,7 +89,6 @@ Android Developers](https://www.youtube.com/watch?v=nDHeuEM30ks&list=PLOU2XLYxms
 + [ARO](https://developer.att.com/application-resource-optimizer/get-aro/download) - Use this free diagnostic tool to improve your app's battery life, data usage, and responsiveness
 + [Network Monitor in Android Studio](http://developer.android.com/intl/zh-cn/tools/help/am-network.html)
 
-# Article Videos Tools and others that cover multiple topics
 ## Performance Test 
 + [Testing Performance of Mobile Apps - Part 1: How Fast Can Angry Birds Run?](http://www.methodsandtools.com/archive/mobileloadtesting.php)
 
@@ -121,4 +120,4 @@ Android Developers](https://www.youtube.com/watch?v=nDHeuEM30ks&list=PLOU2XLYxms
 + [Colt McAnlis](https://twitter.com/duhroach) - Instructor of the Video at Udacity and Youtube
 + [Chet Haase](https://twitter.com/chethaase) - Author of the [Developing for Android](https://medium.com/google-developers/developing-for-android-introduction-5345b451567c) series
 + [Romain Guy](https://twitter.com/romainguy) - former developer of android ui framework team
-+ [胡凯](hukai.me) - 翻译了包括Google官方视频的许多andorid性能优化的资料
++ [胡凯](http://hukai.me) - 翻译了包括Google官方视频的许多andorid性能优化的资料
